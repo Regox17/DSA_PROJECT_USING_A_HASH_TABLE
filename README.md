@@ -14,7 +14,7 @@ This project implements a **hash table** data structure in **C** as part of a **
 
 - `hash_table.c`: Contains the implementation of the hash table.
 - `hash_table.h`: Header file with the data structure and function prototypes.
-- `report.pdf`: Detailed project report (Add this file if you have it).
+- `report.pdf`: Detailed project report.
 
 ## Compilation and Execution
 
