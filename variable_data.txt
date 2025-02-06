@@ -1,0 +1,25 @@
+Symbol	Symbol_Type	Data_Type	Scope	Value	Memory Location	Remarks
+numbers	Variable	int	main	 32, 32, 32, 70, 92 	0x10000	Array_initialized
+numbers	Variable	int	main	Unknown	0x10060	Array_initialized
+temp	Variable	int	main	Unknown	0x10180	Array_initialized
+i	Variable	int	main	Unknown	0x20000	Declared
+numbers	Variable	int	display	 32, 32, 32, 70, 92 	0x10000	Parameter
+size	Variable	int	display	5	0x50008	Parameter
+i	Variable	int	display	Unknown	0x50016	Declared
+numbers	Variable	int	bubble_sort_original	 32, 32, 32, 70, 92 	0x10000	Parameter
+size	Variable	int	bubble_sort_original	5	0x50008	Parameter
+i	Variable	int	bubble_sort_original	Unknown	0x50016	Declared
+temp	Variable	int	bubble_sort_original	Unknown	0x50040	Declared
+iterations	Variable	int	bubble_sort_original	0	0x50048	Initialized
+interchange	Variable	bool	bubble_sort_original	Unknown	0x50060	Initialized
+numbers	Variable	int	bubble_sort_improved	 32, 32, 32, 70, 92 	0x10000	Parameter
+size	Variable	int	bubble_sort_improved	5	0x60008	Parameter
+i	Variable	int	bubble_sort_improved	Unknown	0x60016	Declared
+j	Variable	Unknown	bubble_sort_improved	Unknown	Unknown	Undeclared_variable
+temp	Variable	int	bubble_sort_improved	Unknown	0x60040	Declared
+iterations	Variable	int	bubble_sort_improved	0	0x60048	Initialized
+interchange	Variable	bool	bubble_sort_improved	Unknown	0x60060	Initialized
+display	Function	void	global	None	0x40000	Return_type
+bubble_sort_original	Function	void	global	1	0x40000	Return_type
+bubble_sort_improved	Function	void	global	1	0x40000	Return_type
+main	Function	int	global	1	0x10200	Return_type
